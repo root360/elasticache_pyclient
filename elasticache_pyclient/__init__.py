@@ -12,5 +12,5 @@ elasticache_logger.addHandler(NullHandler())
 
 try:
     from memcache_client import MemcacheClient
-except ImportError, e:
+except ImportError as e:
     pass
